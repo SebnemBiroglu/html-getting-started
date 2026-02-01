@@ -1,4 +1,94 @@
 /* Add screen styles below */
-a.active {
-    font-weight: bold;
+body {
+    background: #18453B;
+    margin-top: 100px;
 }
+
+.card {
+    background-color: #D9D9D9;
+    color: #18453B;
+    width: 500px;
+    height: 330px;
+    font-family: Tahoma, Geneva, sans-serif;
+    overflow: hidden; /* Important: clips the header corners to the 20px radius */
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+}
+
+.card-header {
+    background-color: #008208; /* Green bar */
+    color: #18453B;            /* White text for contrast */
+    width: 500px;
+    height: 80px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;   /* Centers the stack vertically */
+    font-family: Tahoma, Geneva, sans-serif;
+    text-align: center;
+    align-items: center;   
+}
+
+.text-top {
+    font-size: 25px;           /* As requested */
+    text-transform: uppercase;
+    letter-spacing: 3px;
+
+}
+.text-bottom {
+    font-size: 15px;            /* Adjusted from 3px so it is readable */
+    text-transform: uppercase;
+    letter-spacing: 15px;
+}
+
+.card-body {
+    width: 500px;
+    height: 240px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+hr {
+    color: #18453B;
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 10px;
+}
+
+.header-line {
+    width: 250px;            /* Width of the line */
+    border: none;            /* Remove the default browser border */
+    height: 2px;             /* This makes it a THIN line */
+    background-color: #18453B;
+    margin: 4px 0;           /* Space between top and bottom text */
+    opacity: 1;              /* Ensures it is fully visible */
+    
+}
+
+.info-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.info-list li {
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+
+img{
+    float: left;
+    margin-right: 20px;
+}
+
+h2 {
+    font-weight: 800;          /* Extra Bold */
+    font-size: 1.0rem;
+    text-transform: uppercase; /* Metropolis looks very official in all-caps */
+}
+
+
